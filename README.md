@@ -9,7 +9,7 @@ There is some very basic config that can be changed using environment variables.
 ##### server.properties
 * zookeeper.connect={{ .Env.ZOOKEEPER_HOST }}:{{ .Env.ZOOKEEPER_PORT }}
 
-# Example running
+# Example
 ```
 docker run -e ZOOKEEPER_HOST=zookeeper -e ZOOKEEPER_PORT=2181 ruppdog/kafka
 ```
